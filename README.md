@@ -1,12 +1,11 @@
 # Cook County Housing Price Prediction
 
-A two-part data science project that builds a machine learning pipeline to predict residential property sale prices in Cook County, Illinois using real-world assessor data. Completed as part of CSCI 3022 (Data Science) at the University of Colorado Boulder.
-
+A two-part data science project that builds a machine learning pipeline to predict residential property sale prices in Cook County, Illinois using real-world assessor data.
 ---
 
 ## Project Overview
 
-Cook County, Illinois — home to Chicago — relies on property assessments to determine tax obligations for hundreds of thousands of homeowners. Inaccurate assessments can create regressive tax burdens, disproportionately affecting lower-income residents. This project uses a dataset from the [Cook County Assessor's Office (CCAO)](https://datacatalog.cookcountyil.gov/Property-Taxation/Archive-Cook-County-Assessor-s-Residential-Sales-D/5pge-nu6u) to explore, clean, engineer features from, and ultimately build a predictive model for residential home sale prices.
+Cook County, Illinois relies on property assessments to determine tax obligations for hundreds of thousands of homeowners. Inaccurate assessments can create regressive tax burdens, disproportionately affecting lower-income residents. This project uses a dataset from the [Cook County Assessor's Office (CCAO)](https://datacatalog.cookcountyil.gov/Property-Taxation/Archive-Cook-County-Assessor-s-Residential-Sales-D/5pge-nu6u) to explore, clean, engineer features from, and ultimately build a predictive model for residential home sale prices.
 
 The project is divided into two parts: an exploratory analysis and feature engineering phase, followed by a linear regression modeling and evaluation phase.
 
@@ -139,26 +138,19 @@ This project demonstrates a range of skills relevant to data science, analytics,
 ```
 CSCI3022DataScienceProject/
 ├── Project Part 1/
-│   ├── ProjPart1.ipynb       # EDA and feature engineering notebook
-│   ├── ProjPart1.pdf         # PDF export of notebook
-│   ├── cook_county_train.csv # Training dataset
-│   ├── cook_county_test.csv  # Test dataset
+│   ├── ProjPart1.ipynb               # EDA and feature engineering notebook
+│   ├── ProjPart1.pdf                 # PDF export of notebook
+│   ├── cook_county_train.csv         # Training dataset
+│   ├── cook_county_test.csv          # Test dataset
 │   └── data/
-│       └── codebook.txt      # Variable descriptions
+│       └── codebook.txt              # Variable descriptions
 ├── Project Part 2/
-│   ├── ProjPart2.ipynb           # Modeling and evaluation notebook
-│   ├── ProjPart2.pdf             # PDF export of notebook
-│   ├── cook_county_train_val.csv # Training/validation dataset
-│   ├── cook_county_contest_test.csv # Competition test dataset
-│   ├── codebook.txt              # Variable descriptions
-│   ├── ds100_utils.py            # Utility functions
-│   └── feature_func.py           # Feature engineering functions
+│   ├── ProjPart2.ipynb               # Modeling and evaluation notebook
+│   ├── ProjPart2.pdf                 # PDF export of notebook
+│   ├── cook_county_train_val.csv     # Training/validation dataset
+│   ├── cook_county_contest_test.csv  # Competition test dataset
+│   ├── codebook.txt                  # Variable descriptions
+│   ├── ds100_utils.py                # Utility functions
+│   └── feature_func.py               # Feature engineering functions
 └── README.md
 ```
-
----
-
-## Course Context
-
-- **Course**: CSCI 3022 — Introduction to Data Science (University of Colorado Boulder)
-- **Dataset Source**: [Cook County Assessor's Office](https://datacatalog.cookcountyil.gov/Property-Taxation/Archive-Cook-County-Assessor-s-Residential-Sales-D/5pge-nu6u)
